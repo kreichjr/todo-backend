@@ -1,0 +1,16 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Baby's first To-do backend in NodeJS",
+  "main": "server/index.js",
+  "scripts": {
+  	"start": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
